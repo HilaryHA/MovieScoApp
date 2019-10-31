@@ -1,0 +1,36 @@
+/* miniprogram/pages/myself/myself.wxss */
+
+.self-head {
+  background: #e54845;
+  height: 320rpx;
+  width: 100%;
+  font-size: 50rpx;
+  text-align: center;
+  padding-top: 100rpx;
+  color: Cornsilk;
+}
+
+.head-img {
+  display: block;
+  margin: 0 auto;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  overflow: hidden; /*重点噢*/
+  margin-bottom: 16rpx;
+}
+
+.my-self .van-button--info {
+  background: #000;
+  border-color: #000;
+}
+
+.user-info {
+  padding: 10rpx;
+}
+
+.user-info .van-tag {
+  padding:.4em .7em;
+  margin-right: 20rpx;
+  font-size: 22rpx;
+}

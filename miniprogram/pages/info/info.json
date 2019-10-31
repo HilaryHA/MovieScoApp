@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-field": "vant-weapp/field",
+    "van-icon": "vant-weapp/icon",
+    "van-rate": "vant-weapp/rate",
+    "van-button": "vant-weapp/button"
+  },
+  "navigationBarTitleText": "我的评论"
+}

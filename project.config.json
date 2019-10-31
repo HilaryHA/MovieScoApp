@@ -1,0 +1,58 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"nodeModules": true
+	},
+	"appid": "wx3b328666f611d3d7",
+	"projectname": "movie-wwt",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "comment",
+					"pathName": "pages/info/info",
+					"query": "movieid=26794435",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "myself",
+					"pathName": "pages/myself/myself",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

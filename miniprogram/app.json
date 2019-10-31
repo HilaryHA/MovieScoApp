@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/myself/myself",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E54845",
+    "navigationBarTitleText": "最新电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#323232",
+    "selectedColor": "#E54845",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "影评",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home-se.png"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "text": "我的",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my-se.png"
+      }
+    ]
+  }
+}

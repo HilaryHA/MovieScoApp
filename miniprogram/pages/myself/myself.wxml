@@ -1,0 +1,14 @@
+<view class='my-self'>
+  <view class='self-head'>
+    <open-data class="head-img" type="userAvatarUrl"></open-data>
+    <open-data type="userNickName"></open-data>
+  </view>
+  <van-button type="info" size='large' open-type="getUserInfo" bindgetuserinfo="obtainUserInfo">获取用户信息</van-button>
+  <view class='user-info' hidden="{{hidden}}">
+    <van-tag color="#D279A7">{{userData.city}}</van-tag>
+    <van-tag color="#9081D5" plain>{{userData.province}}</van-tag>
+    <van-tag color="#A7CC66">{{userData.country}}</van-tag>
+    <van-tag color="#62CBC5" plain>{{userData.gender==1 ? '♂': '♀'}}</van-tag>
+    <van-tag color="#FFE5F2" text-color="#D279A7">{{userData.language}}</van-tag>
+  </view>
+</view>

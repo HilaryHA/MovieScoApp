@@ -1,0 +1,15 @@
+<view class='my-home' wx:for="{{movie}}" wx:key="index">
+  <image class='cont-img' src="{{item.images.small}}"></image>
+  <view class='cont-info'>
+    <view class='cont-title'>{{item.title}}</view>
+    <view>观众评分：<text class='audience-score'>{{item.rating.average}}</text></view>
+    <view class='cont-star'>
+      <text class='star-tit'>主演：</text>
+      <text class='star-cont' wx:for="{{item.casts}}" wx:for-item="child" wx:key="index">
+        {{ child.name }} 
+      </text>
+    </view>
+    <view>年份：{{item.year}}</view>
+    <van-button class='btn-assess' type="danger" bindtap='jumpInfo' size='small' data-movieid="{{item.id}}">评价</van-button>
+  </view>
+</view>
