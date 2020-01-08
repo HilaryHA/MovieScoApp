@@ -102,10 +102,10 @@
 
 |展示图|
 |---
-|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_1.gif)
-|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_2.gif)
-|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_3.gif)
-|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_4.gif)
+|![image](https://github.com/HilaryHA/MovieScoApp/blob/master/static/show_1.gif)
+|![image](https://github.com/HilaryHA/MovieScoApp/blob/master/static/show_2.gif)
+|![image](https://github.com/HilaryHA/MovieScoApp/blob/master/static/show_3.gif)
+|![image](https://github.com/HilaryHA/MovieScoApp/blob/master/static/show_4.gif)
 
 
 
