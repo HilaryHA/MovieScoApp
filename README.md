@@ -14,6 +14,7 @@
 * [版本说明](#版本说明)
 * [文件及运行说明](#文件及运行说明)
 * [备注说明](#备注说明)
+* [项目展示图](#项目展示图)
 
 *****
 ### 项目环境
@@ -56,7 +57,11 @@
             * `js` 文件处理逻辑业务代码，定义变量、生命周期函数、自定义函数等， 对应 js文件
             * `json` 按需引入对应的 `Vant Weapp` UI组件模块、定义该页面标题、样式等
             * `wxml` 处理 DOM 元素的布局， 对应 html文件
-            * `wxss` 处理元素的样式， 对应 css 文件
+            * `wxss` 处理元素的样式， 对应 css 文件    
+    
+    5. `MovieScoApp\.gitignore` 文件
+        * 使用 `git` 命令提交时，定义需要忽略的文件、目录等
+
 
 2. **运行说明**
     1. 微信开发者工具打开即可运行
@@ -89,5 +94,21 @@
     3. [微信社区交流](https://developers.weixin.qq.com/community/develop/mixflow) （有问题时可以在此网站搜索一哈）
 
     4. [VantWeapp组件库官网](https://youzan.github.io/vant-weapp/#/intro)
+
+
+*****
+### 项目展示图
+-----
+
+|展示图|
+|---
+|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_1.gif)
+|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_2.gif)
+|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_3.gif)
+|![image](https://github.com/HilaryHA/my-vue/blob/master/static/show_4.gif)
+
+
+
+
 ******
 
